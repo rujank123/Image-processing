@@ -1,0 +1,69 @@
+1 .Define three variables:
+A string named productName equal to TV.
+An integer named productYear equal to 2012.
+A float named productPrice equal to 279.99f.
+
+2.Convert myDBL to int and print it.
+
+
+
+JAVA:
+1. Given an integer, , perform the following conditional actions:
+If  is odd, print Weird
+If  is even and in the inclusive range of  to , print Not Weird
+If  is even and in the inclusive range of  to , print Weird
+If  is even and greater than , print Not Weird
+Complete the stub code provided in your editor to print whether or not  is weird.
+
+2. There are three lines of output:
+
+On the first line, print String: followed by the unaltered String read from stdin.
+On the second line, print Double: followed by the unaltered double read from stdin.
+On the third line, print Int: followed by the unaltered integer read from stdin.
+use nextLine()
+Sample Input:
+42
+3.1415
+Welcome to HackerRank's Java tutorials!
+output:
+String: Welcome to HackerRank's Java tutorials!
+Double: 3.1415
+Int: 42
+
+
+3. Input Format
+Every line of input will contain a String followed by an integer. 
+Each String will have a maximum of 1010 alphabetic characters, and each integer will be in the inclusive range from 00 to 999999.
+Output Format
+In each line of output there should be two columns: 
+The first column contains the String and is left justified using exactly 1515 characters. 
+The second column contains the integer, expressed in exactly 33 digits; if the original input has less than three digits, you must pad your output's leading digits with zeroes.
+Sample Input
+java 100
+cpp 65
+python 50
+Sample Output
+================================
+java           100 
+cpp            065 
+python         050 
+================================
+
+
+python:
+use single loop to iterate through the two provided
+strings, and print all of their matching characters (i.e., the characters
+that are at the same index and that are equal to each other), each on a separate line.
+string1 = "aabbcsdw"
+string2 = "abbbcsdd"
+output:
+a
+b
+b
+c
+s
+d
+
+
+
+
